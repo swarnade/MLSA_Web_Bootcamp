@@ -1,0 +1,22 @@
+.gallery-main{
+    display: flex;
+    flex-direction: row;
+}
+
+.gallery-sub{
+    width: 100%;
+}
+img{
+    width: 250px;
+    height: 200px;
+}
+
+@media only screen and (max-width:786px) {
+    .gallery-main {
+        flex-direction: column;
+    }
+    img{
+        width: 100%;
+        height: 250px;
+    }
+}
