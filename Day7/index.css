@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+body {
+    background-color: black;
+    color: white;
+}
+
+#header,
+#footer {
+    font-family: "Kablammo", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "MORF" 0;
+    text-align: center;
+}
+
+#main {
+    height: 75vh;
+    border: solid 3px white;
+    border-radius: 7px;
+    margin-right: 10px;
+    margin-left: 10px
+}
+
+#main-display {
+    height: 68vh;
+}
+#main-options{
+    height:6vh;
+}
+#main-options-input {
+    height: 5vh;
+    margin: 0px 5px;
+    width: 85%;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 7px;
+}
+
+#main-option-button {
+    height: 5vh;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    width: 10%;
+    border-radius: 7px;
+}
+
+.User-Text{
+    text-align: right;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 220%;
+    margin:0;
+    padding: 3px 10px;
+    color: red;
+}
+.User-Inp{
+    text-align: right;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin:0;
+    padding: 3px 10px;
+    font-size: 150%;
+    color: greenyellow;
+}
+
+.Bot-Text{
+    text-align: left;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin:0;
+    padding: 3px 10px;
+    padding: 3px 10px;
+    color: red;
+    font-size: 220%;
+}
+.Bot-Out{
+    text-align: left;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin:0;
+    padding: 3px 10px;
+    color: greenyellow;
+    font-size:150%;
+}
